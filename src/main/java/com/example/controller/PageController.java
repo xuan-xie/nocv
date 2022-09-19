@@ -15,4 +15,13 @@ public class PageController {
         return "pie";
     }
 
+    @RequestMapping("/tobar")
+    public String toBar(){
+        return "bar";
+    }
+
+    @RequestMapping("/toline")
+    public String toLine(){
+        return "line";
+    }
 }
